@@ -1,0 +1,7 @@
+a:hover{
+    color: green;
+}
+
+.bcprimary{
+    background: linear-gradient(143deg, rgba(36,87,42,1) 0%, rgba(123,189,49,1) 100%);
+}

@@ -1,12 +1,48 @@
-<html>
+<!doctype html>
+<html lang="en" cache="no">
 <head>
-<title>IngGreen</title>
+    <title>IngGreen | Consultoría ambiental</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge;ie=10;chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Ing Green una organización ubicada en Bogotá Colombia con el fin de prestar servicios integrales y consultoría en las áreas de Gestión Ambiental, Tramites turísticos, Normas ISO, Seguridad Industrial y Salud Ocupacional.">
+    <meta name="keywords" content="Ing Green, RTN, Sistemas, Gestión, Ambientales, Turísticos, Capacitaciones, Normas, Bogotá, Colombia, PESV, plan, plan, PMA, Planes Emergencia, Salud Ocupacional, Consultoría, Seguridad y salud en el trabajo, Normas ISO.">
+    <meta name="author" content="Dennis Maryith Rodriguez Arriero">
+    <base env="local:/;prod:/">
+    <!--<link type="text/css" href="https://3el.github.io/front/dist/front.css" rel="stylesheet">-->
+    <link type="text/css" href="http://localhost:8888/dist/front.css" rel="stylesheet">
+    <link type="text/css" href="https://3el.github.io/front/dist/design/front/theme/front.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/theme.css?4" rel="stylesheet">
+    <!--<script src="https://3el.github.io/front/dist/front.js" lib="xhr;popup;nav;json;drag;i18n"></script>-->
+    <script src="http://localhost:8888/dist/front.js" lib="xhr;popup;nav;json;drag;i18n;physics"></script>
 </head>
-<body>
-<center>
-  <br><br>
-  <img src="/assets/img/logo.png">
-  <h2>Under Construction...</h2>
-</center>
+<body class="bg">
+
+    <header>
+        <form>
+            
+        </form>
+        <nav class="topbar bcblack white- shade05 h2_5 gap2- test- z08" selective="true">
+            <a href="acerca-de-nosotros" class="fr" key="4">Acerca de Nosotros</a>
+            <a href="contactenos" key="5">Contactenos</a>
+            <a href="preguntas-frecuentes" key="5">Preguntas Frecuentes</a>
+            <span class="gray">|</span>
+            <a class="pr2" href="tel:+513144871416" target="_top" key="5">+51 314 487 1416</a>
+        </nav>
+    </header>
+
+    <nav class="topbar white shade h4 gap2- sred- test-" selective="true">
+        <button class="xl_du h0 f2" onclick="dom.toggle('aside?tag=0')">≡</button>
+        <figure class="mh60p pl1 pr2"><a class="b0" href="./" target="_top" href2="home.html" key="0"><img src="assets/img/logo.png"></a></figure>
+        <a href="servicios" key="1">Servicios</a>
+        <a href="consultoria" key="2">Consultoría</a>
+    </nav>
+    <aside class="xl_dn"></aside>
+    <main include="home.html"></main>
+    <aside class="lg_dn"></aside>
+    <footer>
+        <div eventlistener="offline" eventaction="dom.create('div', ['id=offline', 'className=alert pf b1 l1 bcgreen white snack', 'innerHTML=<i class=icon>⚠</i> Conexión perdida...'], 'footer')"></div>
+        <div eventlistener="online" eventaction="dom.hide('offline')"></div>
+    </footer>
 </body>
 </html>
