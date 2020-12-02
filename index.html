@@ -13,6 +13,8 @@
     <link type="text/css" href="https://3el.github.io/front/dist/design/front/theme/front.css" rel="stylesheet">
     <link type="text/css" href="assets/css/theme.css?4" rel="stylesheet">
     <script src="https://3el.github.io/front/dist/front.js" lib="xhr;popup;nav;json;drag;i18n"></script>
+    <script>window.callbellSettings = {token: "pJKJmi8S4YuYfbYbEnvKfvms"}</script>
+    <script>(function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 </head>
 <body class="bg">
 
@@ -36,7 +38,7 @@
     <aside class="xl_dn"></aside>
     <main include="home.html"></main>
     <aside class="lg_dn"></aside>
-    <footer>
+    <footer>  
         <div eventlistener="offline" eventaction="dom.create('div', ['id=offline', 'className=alert pf b1 l1 bcgreen white snack', 'innerHTML=<i class=icon>⚠</i> Conexión perdida...'], 'footer')"></div>
         <div eventlistener="online" eventaction="dom.hide('offline')"></div>
     </footer>
