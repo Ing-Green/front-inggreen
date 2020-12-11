@@ -14,6 +14,11 @@ a:hover{
 
 #okewa-floating_popup{
 	width: auto !important;
+	top: auto !important;
+	bottom: 80px !important;
+	left: inherit !important;
+	max-height: 80px!important;
+	border-radius: inherit!important;
 }
 
 #okewa-floating_popup a{
@@ -25,6 +30,6 @@ a:hover{
 	right: 0!important;
 }
 
-#okewa-floating_popup .okewa-multiple_cs{
-	padding-right: 1rem;
+#okewa-floating_popup .okewa-chat{
+	padding-right: 1rem!important;
 }
