@@ -9,7 +9,8 @@
     <meta name="keywords" content="IngGreen, Ingenieros, RTN, Sistemas, Gestión, Ambientales, Turísticos, Capacitaciones, Normas, Bogotá, Colombia, PESV, Plan, PMA, Planes Emergencia, Salud Ocupacional, Consultoría, Seguridad y salud en el trabajo, Normas ISO.">
     <meta name="author" content="Dennis Maryith Rodriguez Arriero">
     <base env="local:/;prod:/">
-    <link type="text/css" href="https://3el.github.io/front/dist/front.css" rel="stylesheet">
+    <!--<link type="text/css" href="https://3el.github.io/front/dist/front.css" rel="stylesheet">-->
+    <link type="text/css" href="http://localhost:8888/dist/front.css" rel="stylesheet">
     <link type="text/css" href="assets/css/theme.css?4" rel="stylesheet">
     <script src="https://3el.github.io/front/dist/front.js" lib="xhr;popup;nav;json;drag;i18n"></script>
     <script async data-id="68949" src="https://cdn.widgetwhats.com/script.min.js"></script>
@@ -30,15 +31,34 @@
     </header>
 
     <nav class="topbar bcwhite shade h4 br0- gap2- sblack- test-" selective="true">
-        <button class="xl_du bcwhite black p1 shade1 f2" onclick="dom.toggle('aside?tag=0')">≡</button>
-        <figure class="mh60p pl1 pr2"><a class="b0" href="./" target="_top" href2="home.html" key="0"><img src="assets/img/logo.png"></a></figure>
-        <a href="servicios" key="1">Servicios</a>
-        <a href="consultoria" key="2">Consultoría</a>
+        <a href="#menu" class="button xl_du bcwhite black p1 shade1 f2"><i class="icon32">≡</i></a>
+        <figure class="mh60p pl2 pr2"><a class="b0" href="./" target="_top" href2="home.html" key="0"><img src="assets/img/logo.png"></a></figure>
+        <a href="servicios" key="1" class="lg_dn">Servicios</a>
+        <a href="consultoria" key="2" class="lg_dn">Consultoría</a>
+        <div id="menu" class="modal menu">
+            <a href="#" class="backdrop" target="_self"></a>
+            <nav class="topbar shade h4 br0- gap2- sblack- test-">
+                <a href="#" class="button xl_du bcwhite black p1 shade1 f2"><i class="icon32">&times;</i></a>
+                <figure class="mh60p pl1 pr2"><img src="assets/img/logo.png"></figure>
+            </nav>
+            <a href="servicios" key="1">Servicios</a>
+            <a href="consultoria" key="2">Consultoría</a>
+            <a href="acerca-de-nosotros" key="4">Acerca de Nosotros</a>
+            <a href="preguntas-frecuentes" key="5">Preguntas Frecuentes</a>
+            <a href="contactenos" key="5">Contáctenos​</a>
+
+            <div class="grid">
+                <h2>Follow IngGreen</h2>
+                <div class="w25">Facebook</div>
+                <div class="w25">Instagram</div>
+                <div class="w25">WhatsApp</div>
+            </div>
+        </div>
     </nav>
     <aside class="xl_dn"></aside>
     <main include="home.html"></main>
     <aside class="lg_dn"></aside>
-    <footer>  
+    <footer>
         <div eventlistener="offline" eventaction="dom.create('div', ['id=offline', 'className=alert pf b1 l1 bcgreen white snack', 'innerHTML=<i class=icon>⚠</i> Conexión perdida...'], 'footer')"></div>
         <div eventlistener="online" eventaction="dom.hide('offline')"></div>
     </footer>
