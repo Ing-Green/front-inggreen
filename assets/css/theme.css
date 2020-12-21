@@ -34,7 +34,7 @@ a:hover{
 	padding-right: 1rem!important;
 }
 
-input, select, textarea, button, .button{
+main input, main select, main textarea, main button, main .button{
 	box-shadow: 1px 1px 1px black;
 	border-radius: .5rem;
 }
