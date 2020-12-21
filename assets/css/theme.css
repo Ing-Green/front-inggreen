@@ -33,3 +33,8 @@ a:hover{
 #okewa-floating_popup .okewa-chat .list-cs_1{
 	padding-right: 1rem!important;
 }
+
+input, select, textarea, button, .button{
+	box-shadow: 1px 1px 1px black;
+	border-radius: .5rem;
+}
