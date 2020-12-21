@@ -35,6 +35,13 @@ a:hover{
 }
 
 main input, main select, main textarea, main button, main .button{
-	box-shadow: 1px 1px 1px black;
+	box-shadow: 1px 1px 1px 0px #24572A;
 	border-radius: .5rem;
+	padding: .5rem;
+}
+
+main button, main .button{
+	background-color: #24572A;
+	color: white;
+	padding: .5rem 1rem .5rem 1rem;
 }
