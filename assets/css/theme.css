@@ -8,8 +8,8 @@ a:hover{
 
 /* WidgetWhats */
 
-#okewa-floating_popup .okewa-header{
-	display: none;
+#okewa-floating_popup .okewa-header, .okewa-fc_text{
+	display: none!important;
 }
 
 #okewa-floating_popup{
