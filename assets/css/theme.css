@@ -35,9 +35,9 @@ a:hover{
 }
 
 main input, main select, main textarea, main button, main .button{
-	box-shadow: 1px 1px 1px 0px #24572A;
-	border-radius: .5rem;
-	padding: .5rem;
+    box-shadow: 1px 1px 1px 0.5px #24572A;
+    border-radius: .25rem;
+    padding: .5rem;
 }
 
 main button, main .button{
