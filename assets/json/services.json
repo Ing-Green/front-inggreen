@@ -1,0 +1,58 @@
+{
+    "services":[
+        {
+            "id": 1,
+            "title": "Capacitaciones y Consultoría",
+            "description": "Capacitaciones y Consultoría en Salud Ocupacional y Normatividad.",
+            "thumbnail": "assets/img/capacitaciones.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Servicios Turísticos (RNT)",
+            "description": "Servicios relacionados al registro nacional de turismo.",
+            "thumbnail": "assets/img/salud.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Planes de Emergencia",
+            "description": "Todo lo relacionado con planes de emergencia y normatividad.",
+            "thumbnail": "assets/img/emergencia.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Gestión Empresarial",
+            "description": "Brindamos una dirección, planificación y organización estratégica de los procesos y cumplimiento de la normatividad organizacional.",
+            "thumbnail": "assets/img/estrategica.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Salud Ocupacional",
+            "description": "Capacitados para brindarle información adecuada y oportuna sobre problemas de accidentalidad y enfermedades laborales.",
+            "thumbnail": ""
+        },
+        {
+            "id": 6,
+            "title": "Normatividad Ambiental",
+            "description": "Nos enfocamos en conocer toda la información por las que se reglamentan las licencias ambientales.",
+            "thumbnail": ""
+        },
+        {
+            "id": 7,
+            "title": "Seguridad Industrial",
+            "description": "Encontramos directamente los procesos que necesita su organización por los cuales se minimicen los riesgos y seguridad en el trabajo de sus empleados.",
+            "thumbnail": ""
+        },
+        {
+            "id": 8,
+            "title": "Formación Empresarial",
+            "description": "Ayudamos a mantener su organización actualizada en temas de gestión ambiental, RTN, Salud Ocupacional, Planes de emergencia.",
+            "thumbnail": ""
+        },
+        {
+            "id": 9,
+            "title": "Asesoría y Acompañamiento",
+            "description": "Contamos con personal altamente calificado que brindara un acompañamiento y consultoría en temas relacionados con nuestros servicios prestados.",
+            "thumbnail": ""
+        }
+    ]
+}
