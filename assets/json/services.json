@@ -10,7 +10,7 @@
             "id": 2,
             "title": "Servicios Turísticos (RNT)",
             "description": "Servicios relacionados al registro nacional de turismo.",
-            "thumbnail": "assets/img/salud.jpg"
+            "thumbnail": "assets/img/turismo.jpg"
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@
             "id": 5,
             "title": "Salud Ocupacional",
             "description": "Capacitados para brindarle información adecuada y oportuna sobre problemas de accidentalidad y enfermedades laborales.",
-            "thumbnail": ""
+            "thumbnail": "assets/img/salud.jpg"
         },
         {
             "id": 6,
