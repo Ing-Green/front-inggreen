@@ -34,25 +34,25 @@
             "id": 6,
             "title": "Normatividad Ambiental",
             "description": "Nos enfocamos en conocer toda la información por las que se reglamentan las licencias ambientales.",
-            "thumbnail": ""
+            "thumbnail": "assets/img/licencia.jpg"
         },
         {
             "id": 7,
             "title": "Seguridad Industrial",
             "description": "Encontramos directamente los procesos que necesita su organización por los cuales se minimicen los riesgos y seguridad en el trabajo de sus empleados.",
-            "thumbnail": ""
+            "thumbnail": "assets/img/seguridad.jpg"
         },
         {
             "id": 8,
             "title": "Formación Empresarial",
             "description": "Ayudamos a mantener su organización actualizada en temas de gestión ambiental, RTN, Salud Ocupacional, Planes de emergencia.",
-            "thumbnail": ""
+            "thumbnail": "assets/img/formacion.jpg"
         },
         {
             "id": 9,
             "title": "Asesoría y Acompañamiento",
             "description": "Contamos con personal altamente calificado que brindara un acompañamiento y consultoría en temas relacionados con nuestros servicios prestados.",
-            "thumbnail": ""
+            "thumbnail": "assets/img/apoyo.jpg"
         }
     ]
 }
